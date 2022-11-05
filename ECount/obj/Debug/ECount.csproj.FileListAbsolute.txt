@@ -1,0 +1,24 @@
+C:\Users\devedu21\source\repos\report01_answer\ECount\bin\Debug\ECount.dll
+C:\Users\devedu21\source\repos\report01_answer\ECount\bin\Debug\ECount.pdb
+C:\Users\devedu21\source\repos\report01_answer\ECount\obj\Debug\ECount.csprojAssemblyReference.cache
+C:\Users\devedu21\source\repos\report01_answer\ECount\obj\Debug\ECount.csproj.CoreCompileInputs.cache
+C:\Users\devedu21\source\repos\report01_answer\ECount\obj\Debug\ECount.dll
+C:\Users\devedu21\source\repos\report01_answer\ECount\obj\Debug\ECount.pdb
+C:\Users\devedu4\Downloads\20221102_팀장님_원본\20221102_팀장님_원본\report01_answer\ECount\bin\Debug\ECount.dll
+C:\Users\devedu4\Downloads\20221102_팀장님_원본\20221102_팀장님_원본\report01_answer\ECount\bin\Debug\ECount.pdb
+C:\Users\devedu4\Downloads\20221102_팀장님_원본\20221102_팀장님_원본\report01_answer\ECount\obj\Debug\ECount.csprojAssemblyReference.cache
+C:\Users\devedu4\Downloads\20221102_팀장님_원본\20221102_팀장님_원본\report01_answer\ECount\obj\Debug\ECount.csproj.CoreCompileInputs.cache
+C:\Users\devedu4\Downloads\20221102_팀장님_원본\20221102_팀장님_원본\report01_answer\ECount\obj\Debug\ECount.dll
+C:\Users\devedu4\Downloads\20221102_팀장님_원본\20221102_팀장님_원본\report01_answer\ECount\obj\Debug\ECount.pdb
+C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\obj\Debug\ECount.csprojAssemblyReference.cache
+C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\obj\Debug\ECount.csproj.CoreCompileInputs.cache
+C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\obj\Debug\ECount.dll
+C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\obj\Debug\ECount.pdb
+C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\bin\Debug\ECount.dll
+C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\bin\Debug\ECount.pdb
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\bin\Debug\ECount.pdb
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.csproj.CoreCompileInputs.cache
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.pdb
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.csprojAssemblyReference.cache
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\bin\Debug\ECount.exe
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.exe
