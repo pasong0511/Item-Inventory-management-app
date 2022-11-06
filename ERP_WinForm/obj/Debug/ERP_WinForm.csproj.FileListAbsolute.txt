@@ -34,6 +34,7 @@ C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.csproj.CopyComplete
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.exe
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.pdb
-C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.csprojAssemblyReference.cache
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\bin\Debug\ECount.exe
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.MainForm.resources
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.csproj.AssemblyReference.cache
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ERP_WinForm\obj\Debug\ERP_WinForm.csproj.SuggestedBindingRedirects.cache

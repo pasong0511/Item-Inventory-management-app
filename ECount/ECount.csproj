@@ -51,7 +51,7 @@
     <Compile Include="Model\ProductModel.cs" />
     <Compile Include="Model\SaleHistoryModel.cs" />
     <Compile Include="Model\PurchaseHistoryModel.cs" />
-    <None Include="SDK\InventorySDK - 복사본.cs__" />
+    <Compile Include="SDK\EventSDK.cs" />
     <Compile Include="SDK\TestSDK.cs" />
     <Compile Include="SDK\SaleSDK.cs" />
     <Compile Include="SDK\InventorySDK.cs" />

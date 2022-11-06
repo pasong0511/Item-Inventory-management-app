@@ -19,6 +19,7 @@ C:\Users\devedu21\Desktop\박송희\씨샵\심플이알피\simpe_erp (2)\ECount\
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\bin\Debug\ECount.pdb
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.csproj.CoreCompileInputs.cache
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.pdb
-C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.csprojAssemblyReference.cache
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\bin\Debug\ECount.exe
 C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.exe
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.csproj.AssemblyReference.cache
+C:\Users\psh66\Downloads\simpe_erp_20221104\simpe_erp (2)\ECount\obj\Debug\ECount.csproj.SuggestedBindingRedirects.cache

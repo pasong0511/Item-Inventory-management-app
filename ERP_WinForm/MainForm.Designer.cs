@@ -43,7 +43,7 @@
             this.purchaseCount = new System.Windows.Forms.TextBox();
             this.purchaseBtn = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.PurchaseComboBox = new System.Windows.Forms.ComboBox();
             this.purchaseDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.saleCount = new System.Windows.Forms.TextBox();
@@ -186,7 +186,7 @@
             this.tabPage2.Controls.Add(this.purchaseCount);
             this.tabPage2.Controls.Add(this.purchaseBtn);
             this.tabPage2.Controls.Add(this.dataGridView2);
-            this.tabPage2.Controls.Add(this.comboBox1);
+            this.tabPage2.Controls.Add(this.PurchaseComboBox);
             this.tabPage2.Controls.Add(this.purchaseDateTimePicker);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -254,14 +254,14 @@
             this.dataGridView2.Size = new System.Drawing.Size(608, 188);
             this.dataGridView2.TabIndex = 2;
             // 
-            // comboBox1
+            // PurchaseComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(234, 37);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(148, 20);
-            this.comboBox1.TabIndex = 1;
+            this.PurchaseComboBox.FormattingEnabled = true;
+            this.PurchaseComboBox.Location = new System.Drawing.Point(234, 37);
+            this.PurchaseComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PurchaseComboBox.Name = "PurchaseComboBox";
+            this.PurchaseComboBox.Size = new System.Drawing.Size(148, 20);
+            this.PurchaseComboBox.TabIndex = 1;
             // 
             // purchaseDateTimePicker
             // 
@@ -388,14 +388,14 @@
             this.inventoryGridView.Size = new System.Drawing.Size(580, 199);
             this.inventoryGridView.TabIndex = 0;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
@@ -430,7 +430,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.DateTimePicker purchaseDateTimePicker;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox PurchaseComboBox;
         private System.Windows.Forms.TextBox purchaseCount;
         private System.Windows.Forms.Button purchaseBtn;
         private System.Windows.Forms.DataGridView dataGridView2;
