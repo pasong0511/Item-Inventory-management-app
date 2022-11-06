@@ -21,6 +21,7 @@ namespace ERP_WinForm
             }
 
             EventSDK.RegisterEventHandler("addProduct", this.updatePurchaseProduct);
+            this.updatePurchaseProduct("", null);
         }
 
         private void updatePurchaseProduct(string name, object payload)

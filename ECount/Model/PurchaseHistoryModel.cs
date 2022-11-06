@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECount.Model
 {
+    [Serializable]
     //구매이이력 생성 클래스
     public class PurchaseHistoryModel
     {

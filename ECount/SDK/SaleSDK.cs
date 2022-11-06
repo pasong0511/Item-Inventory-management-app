@@ -56,7 +56,7 @@ namespace ECount
             var quantity = 0;
             foreach (var sale in sales)
             {
-                if (sale.Product == product)
+                if (product.Compare(sale.Product))
                 {
                     quantity += sale.Quantity;
                 }

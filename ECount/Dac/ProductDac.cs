@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 
 namespace ECount.Dac
 {
-    class ProductDac
+    public class ProductDac
     {
         //Name, ProductType 저장
-        static IStore<ProductModel> store = new InMemoryStore<ProductModel>();
+        //static IStore<ProductModel> store = new InMemoryStore<ProductModel>();                //메모리 저장
+        static IStore<ProductModel> store = InFileStore<ProductModel>.Get("product.dat");       //파일 저장
 
         //프로덕트 모델 메모리 저장
         static public void Create(string name, ProductType type)

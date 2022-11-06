@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ECount.Model
 {
+    [Serializable]
     public class ProductModel
     {
         //상품의 이름과, 프로덕트 타입 객체를 생성한다.
@@ -24,6 +25,11 @@ namespace ECount.Model
         public override string ToString()
         {
             return this.Name;
+        }
+
+        public bool Compare(ProductModel product)
+        {
+            return this.Name == product.Name;
         }
     }
 }

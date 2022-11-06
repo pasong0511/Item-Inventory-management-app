@@ -20,7 +20,8 @@ namespace ERP_WinForm
                 saleTable.Rows.Add(sail.Product.Name, sail.Product.Type, sail.Quantity, sail.Date);
             }
 
-            ECount.SDK.EventSDK.RegisterEventHandler("addProduct", this.updateSaleProduct);
+            EventSDK.RegisterEventHandler("addProduct", this.updateSaleProduct);
+            updateSaleProduct("", null);
         }
 
         private void updateSaleProduct(string name, object payload)

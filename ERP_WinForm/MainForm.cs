@@ -7,6 +7,8 @@ using System.Data;
 using System.Windows.Forms;
 using System.Threading;
 using ECount.Model;
+using ECount.Dac;
+using ECount.Store;
 
 namespace ERP_WinForm
 {
@@ -15,6 +17,9 @@ namespace ERP_WinForm
         //--폼 초기화--
         public MainForm()
         {
+            new InFileStore<ProductModel>("product.dat");
+            new InFileStore<PurchaseHistoryModel>("purchase.dat");
+            new InFileStore<SaleHistoryModel>("sale.dat");
             InitializeComponent();
         }
 

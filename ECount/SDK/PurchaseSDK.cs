@@ -46,11 +46,11 @@ namespace ECount
         {
             var purchases = GetHistory(date);
             var quantity = 0;
-            foreach (var sale in purchases)
+            foreach (var purchase in purchases)
             {
-                if (sale.Product == product)
+                if (product.Compare(purchase.Product))
                 {
-                    quantity += sale.Quantity;
+                    quantity += purchase.Quantity;
                 }
             }
             return quantity;

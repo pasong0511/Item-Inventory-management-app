@@ -20,6 +20,8 @@ namespace ERP_WinForm
             this.productTable.Columns.Add("품목명", typeof(string));
             this.productTable.Columns.Add("구분", typeof(ProductType));
             EventSDK.RegisterEventHandler("addProduct", this.updateProdutViewTable);
+            this.updateProdutViewTable("", null);
+
             //품목에 상품 정보 추가
             dataGridView1.DataSource = productTable;
 

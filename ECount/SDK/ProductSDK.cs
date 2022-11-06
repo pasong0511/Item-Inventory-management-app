@@ -7,6 +7,7 @@ using ECount.Store;
 using ECount.Model;
 using ECount.Enum;
 using ECount.Dac;
+using System.Runtime.CompilerServices;
 
 namespace ECount.SDK
 {
@@ -15,7 +16,18 @@ namespace ECount.SDK
         //상품의 name, type을 정의 받으면 ProductDac에 상품 정보 생성 요청 
         static public void Create(string name, ProductType type)
         {
+
+            //ProductDac.Create(name, type);
+            
+            var prevProducts = Get();
+
+            foreach (var product in prevProducts) {
+                if (product.Name == name) {
+                    throw new Exception($"이미 들어간 제품입니다.");
+                }
+            }
             ProductDac.Create(name, type);
+
         }
 
         //아무것도 넘기지 않고 GET 요청을 통해 ProductModel : Name, ProductType 반환 요청

@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ECount.Store
 {
+
     class InMemoryStore<T>: IStore<T>
     {
+
         //메모리에 저장할 리스트 store 객체 생성
         List<T> store = new List<T>();
 

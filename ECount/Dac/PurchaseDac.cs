@@ -11,7 +11,8 @@ namespace ECount.Dac
     class PurchaseDac
     {
         //ProductModel Produc, Quantity, DateTime을 리스트에 넣어서 메모리에 저장하는 store 객체 하나 생성
-        static IStore<PurchaseHistoryModel> store = new InMemoryStore<PurchaseHistoryModel>();
+        //static IStore<PurchaseHistoryModel> store = new InMemoryStore<PurchaseHistoryModel>();                    //메모리 저장
+        static IStore<PurchaseHistoryModel> store = InFileStore<PurchaseHistoryModel>.Get("purchase.dat");       //파일 저장
 
         //스토어에 저장
         static public void Create(ProductModel product, int quantity, DateTime date)
@@ -23,14 +24,6 @@ namespace ECount.Dac
         static public List<PurchaseHistoryModel> GetHistory(DateTime date)
         {
             return store.GetAll(x => x.Date.Date <= date.Date);
-        }
-
-        //이름으로 개수 겟
-        static public /*PurchaseHistoryModel*/int GetQuantity(string name)
-        {
-            Console.WriteLine("콘솔" + name);
-            //람다식 사용
-            return 0;
         }
     }
 }
